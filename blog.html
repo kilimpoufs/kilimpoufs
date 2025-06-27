@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog</title>
+    <link rel="canonical" href="blog.html" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="Blog" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon-->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="home/css/styles.css" rel="stylesheet" /> 
+
+    <style>
+        body {
+            overflow-x: hidden !important;
+        }
+        .bg-header {
+            background-color: rgba(15, 87, 251, 0.6) !important;
+            background-color: rgba(15, 87, 251, 0.6) !important;
+        }
+
+        .bg-footer {
+            --bs-bg-opacity: 1;
+            background-image: linear-gradient( #0F57FB, #0F57FB) !important;
+        }
+
+        .header-text-color {
+            color: #ffffff;
+        }
+
+
+        .navbar-nav .active {
+            border-bottom: solid 1px #ffffff !important;
+        }
+
+        .top-area {
+            height: 30rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: url(banner_image.png);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: cover;
+        }
+
+        .header-transparent-layer {
+            display: block;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5) !important;
+        }
+
+        .header-transparent-layer .contents {
+            padding: 2rem;
+        }
+
+        @media (min-width: 801px) {
+            .custom-position {
+                margin: 3rem auto;
+                width: 45%;
+                border-radius: 30px;
+                padding: 0;
+                margin-left: 10%;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .custom-position {
+                margin: 3rem auto;
+                width: 80%;
+                border-radius: 30px;
+                padding: 0;
+            }
+            .text-start {
+                text-align: center !important;
+            }
+        }
+        body {
+                    background-color: #f1f6f9;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(47, 95 ,165, 0.6) !important;
+
+                    }
+                    .header-transparent-layer {
+                    background-color: rgba(47, 95 ,165, 0.6) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #4f77b1 !important;
+                    color:  #ffffff !important;
+                    border: 1px solid #4f77b1 !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer, .dropdown-content2 {
+                    background-color:  #2f5fa5 !important;
+                    background-image: none;
+                }
+.dropdown-content2 a:hover{
+                    background-color:  #090806 !important;
+                    background-image: none;
+                }
+
+                .bg-dark, .navbar-brand {
+                    color: #ffffff !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #ffffff;
+                }
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible {
+                    color: #ffffff;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #000000;
+                }
+                .head-title {
+                    color: #ffffff !important;
+                }
+                .head-tagline {
+                    color: #ffffff;
+                }
+
+                footer.py-5.bg-dark.text-center {
+                    color: #ffffff !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #2563eb !important;
+                }
+
+                .btn-banner-theme {
+                    color: #2f5fa5;
+                    background-color: #ffffff;
+                    border-color: #ffffff;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #ffffff;
+                    background-color: #2f5fa5;
+                }
+
+                .btn-theme {
+                    color: #ffffff;
+                    background-color: #2f5fa5;
+                    border-color: #2f5fa5;
+                }
+
+                .btn-theme:hover {
+                    color: #2f5fa5;
+                    background-color: #ffffff;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #2f5fa5;
+                }
+
+                .main-heading {
+                    color: #2f5fa5;
+                }
+
+                .card-text {
+                    color: #4f4f4f;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+                .article-card-text {
+                    color: #000000;
+                   
+                }
+.article-card-text * {
+                    color: #000000 !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #ffffff;
+                    padding : 10px;
+
+                }
+.working-hours{
+ background-color: #ffffff !important;
+                    border: 2px solid #eaeaea !important;
+                    
+}
+.working-hours-text{
+color: #2f5fa5;
+                    
+}
+
+                .cards-container .card {
+                    background-color: #ffffff !important;
+                    border: 2px solid #eaeaea !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #2f5fa5;
+                }
+
+                .cards-container .card .card-text {
+                    color: #000000;
+                }
+                .article-info {
+                    color: #4f4f4f;
+                }
+    </style>
+</head>
+
+<body>
+<!-- Responsive navbar-->
+<div class="top-area">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container px-5">
+            <a style="color: inherit; text-decoration: inherit;" href="index.html">
+                    <span class="navbar-brand">
+                        <img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()">
+                    </span>
+                <span class="navbar-brand header-text-color">en.kilimpoufs.com</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+                    <li class="nav-item {{home_active}}">
+                        <a class="nav-link header-text-color" href="index.html">Home</a>
+                    </li>
+                    <div class="nav-item {{service_active}} dropdown">
+                        <button class="header-text-color dropbtn is-mobile">Pages</button>
+                        <a class="nav-link header-text-color dropbtn is-desktop" href="pages.html">Pages</a>
+                        <div class="dropdown-content">
+                            <div class="dropdown-content2">
+                                <li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="kilim-poufs-vs-leather-poufs-which-one-fits-your-style.html">Kilim Poufs vs Leather Poufs – Which One Fits Your Style
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="kilim-poufs-the-boho-accent-your-home-needs.html">Kilim Poufs: The Boho Accent Your Home Needs
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="handmade-kilim-poufs-for-modern-interiors.html">Handmade Kilim Poufs for Modern Interiors
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="add-moroccan-vibes-to-your-home-with-kilim-ottomans.html">Add Moroccan Vibes to Your Home with Kilim Ottomans
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="sustainable-kilim-poufs-for-eco-chic-homes.html">Sustainable Kilim Poufs for Eco-Chic Homes
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="kilim-poufs-for-minimalist-and-boho-interiors.html">Kilim Poufs for Minimalist and Boho Interiors
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="how-to-decorate-with-vintage-kilim-floor-cushions.html">How to Decorate with Vintage Kilim Floor Cushions
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="why-interior-designers-love-kilim-poufs.html">Why Interior Designers Love Kilim Poufs
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="versatile-kilim-poufs-for-seating-footrests-and-decor.html">Versatile Kilim Poufs for Seating, Footrests, and Decor
+                                                                                        <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                                                                                        href="authentic-kilim-ottomans-for-living-rooms.html">Authentic Kilim Ottomans for Living Rooms
+                                                                                        <span class="border-menu"></span></a></li>
+                            </div>
+                        </div>
+                    </div>
+                    <li class="nav-item active">
+                        <a class="nav-link header-text-color" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item {{about_us_active}}" style="display: none">
+                        <a class="nav-link header-text-color" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item {{contact_active}}" style="display: ">
+                        <a class="nav-link header-text-color" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-4 mb-2 mb-lg-0" style="display: none !important;">
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="display: none">
+                        <a class="nav-link header-text-color" target="_blank" href="">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg overflow-hidden custom-position">
+        <div class="header-transparent-layer p-5">
+            <h1 class="display-5 text-capitalize fw-bold header-text-color"><span>Latest Blog Posts</span></h1>
+        </div>
+    </nav>
+</div>
+
+<div class="container article-container">
+
+    <header class="py-2 border-bottom mb-4" style="display: none">
+        <div class="ql-editor py-4 article-card-text" id="sitewide-header">
+            
+        </div>
+    </header>
+    <div class="row align-items-center py-lg-5 article-card-text px-4">
+        <!-- Heading Row-->
+        <div class="col-lg-12 py-lg-2">
+                    <h2 class="main-heading fs-3">en.kilimpoufs.com: Latest Blog Posts</h2>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="how-to-care-for-your-handmade-kilim-poufs-and-extend-their-lifespan.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to Care for Your Handmade Kilim Poufs and Extend Their Lifespan</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Moisture can significantly impact the lifespan of your handmade kilim poufs. To safeguard against potential damage, it is essential to keep them in dry areas of your home. Consider placing them away from windows, humidifiers, or direct sources of dam......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-care-for-your-handmade-kilim-poufs-and-extend-their-lifespan.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="how-to-maintain-and-care-for-your-authentic-kilim-ottoman.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to Maintain and Care for Your Authentic Kilim Ottoman</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Kilim ottomans can sometimes retain unpleasant odors, especially when exposed to humidity or spills. To address this issue promptly, it is essential to ensure proper ventilation. Place the ottoman in a dry, well-ventilated area to help dissipate any ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-maintain-and-care-for-your-authentic-kilim-ottoman.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="review-of-the-best-kilim-poufs-available-in-2023.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the Best Kilim Poufs Available in 2023</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When searching for kilim poufs, both online platforms and local stores present unique advantages. Online shops like Etsy, Amazon, and specialized décor websites offer a vast selection that showcases various styles, colors, and sizes. Shoppers can ea......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-best-kilim-poufs-available-in-2023.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="review-of-the-best-authentic-kilim-ottomans-for-modern-living-rooms.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the Best Authentic Kilim Ottomans for Modern Living Rooms</h2>
+                            </div>
+                            <p class="card-text py-lg-2">To keep your Kilim ottoman in excellent condition, regular cleaning is essential. Use a soft brush or vacuum cleaner with a low suction setting to remove dust and debris. For spills or stains, act quickly by blotting the area with a clean, dry cloth.......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-best-authentic-kilim-ottomans-for-modern-living-rooms.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="round-up-of-unique-kilim-ottomans-to-elevate-your-living-space.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Round-Up of Unique Kilim Ottomans to Elevate Your Living Space</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Ottomans serve as versatile additions to any living space, effortlessly enhancing both functionality and aesthetics. Their adaptability allows them to fit seamlessly into a myriad of design schemes. Whether placed in a cozy reading nook, positioned t......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="round-up-of-unique-kilim-ottomans-to-elevate-your-living-space.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="review-of-the-best-handmade-kilim-poufs-for-contemporary-living.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the Best Handmade Kilim Poufs for Contemporary Living</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Choosing the right color scheme is essential for harmonizing a space. Handmade kilim poufs often come in vibrant patterns and earthy tones, making them versatile choices that can add warmth and personality to various interiors. Collecting pillows and......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-best-handmade-kilim-poufs-for-contemporary-living.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="what-makes-kilim-ottomans-unique-and-chic.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What Makes Kilim Ottomans Unique and Chic</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Kilim ottomans offer a delightful blend of comfort and practicality. The cushioned tops provide a soft seating option for guests while also serving as footrests after a long day. Their lightweight design makes it easy to move them around the room, ca......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-makes-kilim-ottomans-unique-and-chic.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="review-the-best-sustainable-kilim-poufs-for-your-eco-chic-decor.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review: The Best Sustainable Kilim Poufs for Your Eco-Chic Decor</h2>
+                            </div>
+                            <p class="card-text py-lg-2">To ensure the longevity of your kilim pouf, regular care and maintenance are essential. Start by vacuuming the pouf gently to remove dust and debris. Use a handheld attachment to navigate the fabric's intricate patterns without causing harm. If spill......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-the-best-sustainable-kilim-poufs-for-your-eco-chic-decor.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="round-up-of-the-top-sustainable-brands-for-kilim-poufs.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Round-Up of the Top Sustainable Brands for Kilim Poufs</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Shoppers often express their appreciation for the vibrant colors and unique designs found in sustainable Kilim poufs. Many highlight the craftsmanship involved, with several reviews noting that these poufs serve as not just functional pieces but also......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="round-up-of-the-top-sustainable-brands-for-kilim-poufs.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="round-up-of-stylish-kilim-poufs-for-every-room.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Round Up of Stylish Kilim Poufs for Every Room</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When selecting a kilim pouf, size plays a crucial role in ensuring it complements the space effectively. Consider the dimensions of your room and existing furniture. A larger pouf can serve as a statement piece, while smaller poufs may fit seamlessly......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="round-up-of-stylish-kilim-poufs-for-every-room.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="round-up-of-creative-ways-to-style-your-kilim-pouf.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Round Up of Creative Ways to Style Your Kilim Pouf</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Kilim poufs naturally draw the eye with their vibrant colors and intricate patterns. To enhance their appeal, consider mixing them with other textiles that feature contrasting designs. Pairing a kilim pouf with stripes or polka dots can create a dyna......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="round-up-of-creative-ways-to-style-your-kilim-pouf.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="round-up-of-creative-ways-to-style-kilim-ottomans.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Round Up of Creative Ways to Style Kilim Ottomans</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Incorporating Kilim ottomans into your interior design can create a captivating interplay of textures. The intricate patterns and vibrant colors of these ottomans enhance various aesthetics, particularly when combined with other textile elements. Pai......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="round-up-of-creative-ways-to-style-kilim-ottomans.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="how-to-care-for-your-sustainable-kilim-pouf-to-ensure-longevity.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to Care for Your Sustainable Kilim Pouf to Ensure Longevity</h2>
+                            </div>
+                            <p class="card-text py-lg-2">For optimal preservation, it is essential to store your kilim pouf in a clean, dry space. Avoid areas with excessive humidity, as moisture can lead to mold and mildew. Ideally, choose a location with stable temperatures, away from direct sunlight or ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-care-for-your-sustainable-kilim-pouf-to-ensure-longevity.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="how-to-care-for-your-kilim-pouf-to-prolong-its-life.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to Care for Your Kilim Pouf to Prolong Its Life</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Finding the right storage methods for your Kilim pouf can significantly extend its lifespan. When not in use, it is essential to keep the pouf in a dry environment. Moisture can lead to mold and mildew growth, which may cause irreversible damage. An ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-care-for-your-kilim-pouf-to-prolong-its-life.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="how-to-incorporate-kilim-poufs-into-your-living-space.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to Incorporate Kilim Poufs into Your Living Space</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Kilim poufs add a unique touch to any space, but they require some care to maintain their vibrant colors and rich textures. Regular vacuuming helps remove dust and debris. For more thorough cleaning, spot cleaning with a mild detergent and water is a......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-incorporate-kilim-poufs-into-your-living-space.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="review-of-the-top-kilim-poufs-for-your-home.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the Top Kilim Poufs for Your Home</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Kilim poufs are increasingly celebrated for their eco-friendly attributes. Crafted from natural materials such as wool and cotton, these pieces reflect a commitment to sustainability. Many artisans prioritize traditional weaving techniques, minimizin......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-top-kilim-poufs-for-your-home.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="what-to-look-for-when-buying-a-kilim-pouf.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What to Look for When Buying a Kilim Pouf</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When selecting a Kilim pouf, the craftsmanship and quality play a pivotal role in determining its overall appeal and durability. Authentic handwoven pieces often exhibit intricate designs and unique patterns, showcasing the artisan's skill and dedica......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-to-look-for-when-buying-a-kilim-pouf.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="review-of-the-best-kilim-poufs-for-style-and-comfort.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the Best Kilim Poufs for Style and Comfort</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Color plays a vital role in creating a desired ambiance within any living space. Different hues can evoke various emotions and set the mood of a room. For instance, warm tones such as reds, oranges, and yellows often create a lively and inviting atmo......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-best-kilim-poufs-for-style-and-comfort.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="round-up-of-stylish-ways-to-use-kilim-poufs-in-your-decor.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Round Up of Stylish Ways to Use Kilim Poufs in Your Decor</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Incorporating Kilim poufs into existing decor enhances the overall aesthetic by introducing rich texture and vibrant patterns. Placing these poufs alongside softer textiles such as velvet or cotton can create an inviting environment. The interplay be......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="round-up-of-stylish-ways-to-use-kilim-poufs-in-your-decor.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="review-of-the-top-5-kilim-ottoman-brands.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Review of the Top 5 Kilim Ottoman Brands</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Heritage Weaves stands out with its commitment to traditional craftsmanship, bringing together centuries of skill and artistry. Each kilim ottoman is handcrafted by artisans, ensuring that the patterns and textures reflect the rich cultural heritage ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="review-of-the-top-5-kilim-ottoman-brands.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="round-up-of-creative-uses-for-kilim-poufs-in-home-decor.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Round Up of Creative Uses for Kilim Poufs in Home Decor</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Kilim poufs can transform any outdoor space into a vibrant and inviting area. Their rich colors and geometric patterns can enhance the visual appeal of patios and gardens. When placed around seating areas, they provide additional seating options for ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="round-up-of-creative-uses-for-kilim-poufs-in-home-decor.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="can-you-wash-kilim-cushion-covers.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Can you wash kilim cushion covers?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Spot cleaning is essential for maintaining the vibrant colors and intricate patterns of kilim cushion covers. To begin, it’s important to act quickly when a spill occurs. Blot the stain gently with a clean, dry cloth to absorb as much liquid as pos......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="can-you-wash-kilim-cushion-covers.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="are-poufs-still-in-style.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Are poufs still in style?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Poufs offer versatility that extends beyond mere aesthetics. Their lightweight design makes them easy to move, allowing for flexible arrangements in any space. They can serve as footrests, additional seating, or even as side tables when needed. This ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="are-poufs-still-in-style.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="how-to-choose-the-right-pouf.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to choose the right pouf?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When selecting a pouf, it is essential to consider the maintenance and care required for different materials. Natural fibers like cotton and wool tend to be more susceptible to stains and may require more frequent cleaning than synthetic options. If ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-choose-the-right-pouf.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="what-style-is-kilim.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What style is kilim?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Kilim designs showcase a vibrant palette that reflects cultural heritage and artistic traditions. Traditional colors are derived from natural sources, including plant dyes and minerals, resulting in rich hues that have a timeless quality. Bold reds, ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-style-is-kilim.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="how-to-use-kilim.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to use kilim?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Kilim rugs are versatile pieces that can enhance various styles of decor, from bohemian to contemporary. When incorporating a kilim rug into a living space, consider the color palette of your room. Choosing a rug that features complementary colors ca......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-use-kilim.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="why-are-kilim-rugs-so-expensive.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Why are kilim rugs so expensive?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Each kilim rug showcases a unique tapestry of colors, shapes, and motifs that reflect the rich cultural narratives of the regions from which they originate. Artisans often employ traditional weaving techniques that have been passed down through gener......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="why-are-kilim-rugs-so-expensive.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="are-kilim-rugs-good-quality.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Are kilim rugs good quality?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Kilim rugs stand out for their flatweave technique, which differentiates them from pile rugs like traditional Persian or shag rugs. This method results in a lightweight texture and vibrant patterns that capture the eye. Their craftsmanship often refl......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="are-kilim-rugs-good-quality.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="how-to-date-a-kilim-rug.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">How to date a kilim rug?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Kilim rugs hold a deep cultural significance within the communities that create them. These textiles often serve as both functional items and pieces of art, reflecting the identity and traditions of the weavers. Each design and color choice carries s......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="how-to-date-a-kilim-rug.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div><div class="col-md-6 mb-5 cards-container">
+                    <div class="card h-100 bg-white rounded-4 ">
+                      <a class="undecorated" href="what-is-the-best-filling-for-a-leather-pouf.html">
+                        <div class="card-body">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2025-06-27</span>
+                                <span class="article-info" style="display: inline"><i class="fa fa-user" style="padding-right: 10px"></i>Lafont Catherine</span>
+                            </div>
+                            <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the best filling for a leather pouf?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Many consumers today are seeking sustainable options for their home furnishings. Eco-friendly fillings can provide an excellent alternative to traditional materials. Options like organic cotton, kapok, and hemp are gaining popularity due to their bio......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-best-filling-for-a-leather-pouf.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div>
+    </div>
+    <div class="">
+        <div>
+            
+        </div>
+    </div>
+    <div class="pb-5 ql-editor article-card-text" id="sitewide-footer" style="display:none">
+        
+    </div>
+</div>
+
+
+
+<!-- Footer-->
+
+<footer class="py-5 bg-dark text-center footer-text-color">
+
+    <div class="container">
+        <div class="row  py-lg-3">
+            <div class="col-md-7">
+                <table style="text-align: left">
+                    <tr>
+                        <td width="15%">
+                            <h2>
+                                <a style="color: inherit;text-decoration: auto;" href="index.html"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></a>
+                            </h2>
+                        </td>
+                        <td style="text-align: left" class="footer-text-color">
+                            <h2><a style="text-decoration: auto;" href="index.html">en.kilimpoufs.com</a></h2>
+                        </td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-map-marker-alt footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color">20 North Gould Street Sheridan, WY 82801,Sheridan,WY,US,82801</td>
+                    </tr>
+                    <tr style="display: none">
+                        <td width="15%"><i class="fa fa-phone footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color "></td>
+                    </tr>
+                    <tr style="display: ">
+                        <td width="15%"><i class="fa fa-envelope footer-text-color"></i></td>
+                        <td style="text-align: left" class="footer-text-color">lafontcatherine635@gmail.com</td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <table class="float-start float-md-end" style="margin-left: 40px;">
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class=" footer-text-color" style="text-decoration: none" href="terms.html">Terms of Use</a></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class="footer-text-color" style="text-decoration: none" href="privacy.html">Privacy Policy</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: inherit"><a class=" footer-text-color" style="text-decoration: none" href="sitemap.html">Sitemap</a></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;display: "><a class=" footer-text-color" style="text-decoration: none" href="contact.html">Contact Us</a></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <ul class="mt-3 mb-3" style="display: none !important">
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color  mr-3" target="_blank" href=""><i class="fa-2x icon-social-facebook"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color   mr-3" target="_blank" href=""><i class="fa-2x icon-social-twitter"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class=" footer-text-color   mr-3" target="_blank" href=""><i class="fa-2x icon-social-instagram"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color  mr-3" target="_blank" href=""><i class="fa-2x icon-social-pinterest"></i></a>
+        </li>
+        <li class="list-inline-item" style="display: none">
+            <a style="text-decoration: none" class="footer-text-color   mr-3" target="_blank" href=""><i class="fa-2x icon-social-youtube"></i></a>
+        </li>
+    </ul>
+
+    <div class="text-white">
+        <hr/>
+    </div>
+    <div class="container">
+        <p class="m-0 text-center">Copyright &copy; en.kilimpoufs.com. All Rights Reserved.</p>
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="home/js/scripts.js"></script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+    let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+<script>
+    document.getElementsByTagName('head')[0].innerHTML = document.getElementsByTagName('head')[0].innerHTML.replace('REPLACE_WITH_URL', window.location.href);
+</script></body>
+
+</html>
